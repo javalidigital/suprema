@@ -12,3 +12,4 @@ License URI: licence/GPL.txt
 CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
 
 */
+.cover_boxes ul {font-size: 12px;}

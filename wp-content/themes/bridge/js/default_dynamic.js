@@ -64,7 +64,7 @@ function initialize() {
 	geocoder = new google.maps.Geocoder();
 	var latlng = new google.maps.LatLng(-34.397, 150.644);
 	var myOptions = {
-		zoom: 12,
+		zoom: 19,
 				scrollwheel: false,
 				center: latlng,
 		zoomControl: true,
@@ -145,7 +145,7 @@ function showContactMap() {
 		codeAddress("");
 		codeAddress("");
 		codeAddress("");
-		codeAddress("Museum of the City of New York, New York, USA");
+		codeAddress("Rua Azevedo Soares, 70 Tatuapé - São Paulo/SP");
 	}
 }
 
