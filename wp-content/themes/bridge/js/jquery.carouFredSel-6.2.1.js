@@ -11,7 +11,6 @@
  *	http://en.wikipedia.org/wiki/GNU_General_Public_License
  */
 
-
 (function($) {
 
 

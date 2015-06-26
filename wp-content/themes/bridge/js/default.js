@@ -1344,6 +1344,7 @@ function calculateHeights(){
 function initQodeCarousel(){
     "use strict";
 
+
     if($j('.qode_carousels').length){
         $j('.qode_carousels').each(function(){
             var itemWidth = ($j(this).parents('.grid_section').length == 1) ? 170 : 315;
@@ -1352,8 +1353,9 @@ function initQodeCarousel(){
                 responsive: true,
                 scroll : {
                     items           : 1,
-                    duration        : 1000,
-                    pauseOnHover    : false
+                    duration        : 0.1,
+                    easing           :'linear',
+                    pauseOnHover    : true
                 },
                 items: {
                     width: itemWidth,
@@ -1362,12 +1364,16 @@ function initQodeCarousel(){
                         max: 6
                     }
                 },
-                auto: true,
+                auto: {                    
+     timeoutDuration: 0,
+     play: true
+    },
                 mousewheel: false,
                 swipe: {
                     onMouse: true,
                     onTouch: true
                 }
+
 
             }).animate({'opacity': 1},1000);
         });
