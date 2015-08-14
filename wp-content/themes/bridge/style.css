@@ -13,3 +13,45 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 
 */
 .cover_boxes ul {font-size: 12px;}
+body > section.section_holder.vc_row-fluid.bg_grey > div > div > div:nth-child(2) {text-align: right!important;}
+body > div.wrapper > div > div > div.content_inner > div.full_width > div > div.vc_row.wpb_row.section.vc_row-fluid.grid_section.full_screen_section > div > div > div:nth-child(2) > div > span {padding-left: 57px!important;}
+body > div.wrapper > div > div > div.content_inner > div.full_width > div > div:nth-child(5) > div > div > div > a {margin: 10px 45%!important;}
+/**********AJUSTE COLUNA DE ICONE PARA CABER NO GRID******/
+body > div.wrapper > div > div > div > div.full_width > div > div.vc_row.wpb_row.section.vc_row-fluid.grid_section.full_screen_section > div > div > div:nth-child(4) {
+	width: 12.9%!important
+}
+/*PLUGIN LIGHTBOX*/
+.button-block {display: none!important;}
+.element_2 .title-block_2 h3 {font-size: 12px!important;}
+body > div.content {min-height: 0!important;}
+
+/**************SUPREMA EXPERIENCE BOX*******************/
+body > div.wrapper > div > div > div > div.full_width > div > div > div > div > div > div > div > ul > li > div > div > p {line-height: 22px!important;}
+/******LIGHTBOX - REMOVE PAGINATION*********/
+.portfolio_navigation {display: none!important;}
+/*****L O G O*****/
+body > div.wrapper > div > header > div > div > div > div > div > div.header_inner_left > div.logo_wrapper > div > a > img.normal {height: 89%!important;}
+/**********S L I D E R***************/
+div.carousel-inner.skrollable.skrollable-between > div > div.slider_content_outer > div > div > div > h2 > span, div.carousel-inner.skrollable.skrollable-between > div > div.slider_content_outer > div > div > div > h4 > span {background: url(http://suprema.javalidigital.com.br/wp-content/uploads/2015/08/pixel-suprema.png); padding: 2px 8px 2px 8px;}
+.projects_holder article .image img, .portfolio_slider .portfolio_slides li.item img {height: 239px;}
+
+/*******INSTAGRAM******/
+#sb_instagram .sb_instagram_header p {display: none;}
+
+/************C T A - "QUE TALL" ***********/
+body > div.wrapper > div > div > div > div.full_width > div > div.vc_row.wpb_row.section.vc_row-fluid.vc_custom_1438802539533 > div > div > div > div.call_to_action.normal {background: none!important;}
+body > div.wrapper > div > div > div > div.full_width > div > div.vc_row.wpb_row.section.vc_row-fluid.vc_custom_1438802539533 > div > div > div > div.call_to_action.normal > div {    width: 86%;
+    padding-left: 6%;}
+
+    /****ICONE PRODUTORA COMPLETA******/
+    body > div.wrapper > div > div > div > div.full_width > div > div.vc_row.wpb_row.section.vc_row-fluid.grid_section.full_screen_section > div > div > div:nth-child(7) > div > div > div.icon_text_holder > div > h5 {padding-left: 23px;}
+
+    /***********PORTFOLIO TITLE********/
+    body > div.content > div > div.container > div > div > div.portfolio_container > div.column2 > div > div > div.info.portfolio_content > h6 {display: none;}
+    /*******PORTFOLIO - SUPREMA EXPERIENCE BOXES VISUAL BUILDER********/
+    .cover_boxes ul li .box .thumb {
+    	width: 255px!important;
+    }
+
+    /*********AJUSTE ESPAÇAMENTO*************/
+    .cover_boxes ul li .box .qbutton, .cover_boxes ul li .box h5, .cover_boxes ul li .box h3 {margin: 0px!important;}

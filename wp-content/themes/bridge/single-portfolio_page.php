@@ -86,7 +86,7 @@ if(get_post_meta(get_the_ID(), "qode_choose-number-of-portfolio-columns", true) 
 
 ?>
 
-<?php get_header(); ?>
+<?php get_header('portfolio'); ?>
 	<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
 			<?php if(get_post_meta($id, "qode_page_scroll_amount_for_sticky", true)) { ?>
@@ -95,6 +95,7 @@ if(get_post_meta(get_the_ID(), "qode_choose-number-of-portfolio-columns", true) 
 				</script>
 			<?php } ?>
 				<?php get_template_part( 'title' ); ?>
+				<!-- INCLUIR AQUI CUSTOM FIELD - GWP -->
 			<?php
 			$revslider = get_post_meta($id, "qode_revolution-slider", true);
 			if (!empty($revslider)){ ?>
@@ -154,4 +155,4 @@ if(get_post_meta(get_the_ID(), "qode_choose-number-of-portfolio-columns", true) 
 			<?php } ?>
 		<?php endwhile; ?>
 	<?php endif; ?>
-<?php get_footer(); ?>
+<?php get_footer('portfolio'); ?>

@@ -118,7 +118,9 @@ if(get_post_meta(get_the_ID(), "qode_choose-number-of-portfolio-columns", true) 
 									?>
 									<?php if($lightbox_single_project == "yes"){ ?>
 										<a class="lightbox_single_portfolio" title="<?php echo $title; ?>" href="<?php echo $image_src; ?>" data-rel="prettyPhoto[single_pretty_photo]">
+										  <p>aaaaaaaaaa</p>
 											<img src="<?php echo $image_src; ?>" alt="<?php echo $alt; ?>" />
+											
 										</a>
 									<?php } else { ?>
 										<img src="<?php echo $image_src; ?>" alt="<?php echo $alt; ?>" />
@@ -261,6 +263,7 @@ if(get_post_meta(get_the_ID(), "qode_choose-number-of-portfolio-columns", true) 
 							if($all > 0){
 								?>
 								<div class="info portfolio_categories">
+								<span>tttttttttttttessste</span>
 									<h6><?php _e('Category ','qode'); ?></h6>
 													<span class="category">
 													<?php

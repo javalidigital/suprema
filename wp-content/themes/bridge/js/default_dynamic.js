@@ -29,8 +29,8 @@ var add_for_admin_bar = 0;
 
 var logo_height = 130; // proya logo height
 var logo_width = 280; // proya logo width
-	logo_height = 136;
-	logo_width = 110;
+	logo_height = 372;
+	logo_width = 1091;
 	
 	header_top_height = 0;
 var loading_text;

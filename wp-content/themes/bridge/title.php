@@ -118,6 +118,7 @@ if(get_post_meta($id, "qode_show-page-title-image", true) == 'yes') {
 }
 $qode_page_title_style = "standard";
 if(get_post_meta($id, "qode_page_title_style", true) != ""){
+		echo "teste";
 	$qode_page_title_style = get_post_meta($id, "qode_page_title_style", true);
 }else{
 	if(isset($qode_options_proya['title_style'])) {

@@ -69,7 +69,7 @@ if(isset($qode_options_proya['section_between_map_form_position']) && $qode_opti
 							echo $qode_options_proya['contact_section_above_form_title'];  } else { ?><?php _e('Get in touch with us', 'qode'); ?><?php } ?></h2>
 							<div class="separator small <?php echo $map_form_section_position; ?>"></div>
 							<h4><?php if(isset( $qode_options_proya['contact_section_above_form_subtitle']) && $qode_options_proya['contact_section_above_form_subtitle'] != "") { 
-							echo $qode_options_proya['contact_section_above_form_subtitle'];  } else { ?><?php _e('Say Hello! Don’t be shy.', 'qode'); ?><?php } ?></h4>
+							echo $qode_options_proya['contact_section_above_form_subtitle'];  } else { ?><?php _e('', 'qode'); ?><?php } ?></h4>
 						</div>
 					<?php } ?>
 					<?php if($qode_options_proya['enable_contact_form'] == "yes"){ ?>
@@ -89,13 +89,13 @@ if(isset($qode_options_proya['section_between_map_form_position']) && $qode_opti
 										<div class="two_columns_50_50 clearfix">
 											<div class="column1">
 												<div class="column_inner">
-													<input type="text" class="requiredField" name="fname" id="fname" value="" placeholder="<?php _e('First Name *', 'qode'); ?>" />
+													<input type="text" class="requiredField" name="fname" id="fname" value="" placeholder="<?php _e('Nome *', 'qode'); ?>" />
 													
 												</div>
 											</div>
 											<div class="column2">
 												<div class="column_inner">
-													<input type="text" class="requiredField" name="lname" id="lname" value="" placeholder="<?php _e('Last Name *', 'qode'); ?>" />
+													<input type="text" class="requiredField" name="lname" id="lname" value="" placeholder="<?php _e('Telefone *', 'qode'); ?>" />
 												</div>
 											</div>
 										</div>
@@ -120,7 +120,7 @@ if(isset($qode_options_proya['section_between_map_form_position']) && $qode_opti
 											</div>
 										</div>
 										<?php }?>
-										<textarea name="message" id="message" rows="10" placeholder="<?php _e('Message', 'qode'); ?>"></textarea>
+										<textarea name="message" id="message" rows="10" placeholder="<?php _e('Mensagem', 'qode'); ?>"></textarea>
 										
 										<?php
 										if($qode_options_proya['use_recaptcha'] == "yes") :
@@ -147,7 +147,7 @@ if(isset($qode_options_proya['section_between_map_form_position']) && $qode_opti
 										<?php endif; ?>
 										
 										<span class="submit_button_contact">
-											<input class="qbutton contact_form_button" type="submit" value="<?php _e('Contact Us', 'qode'); ?>" />
+											<input class="botaoform contact_form_button" type="submit" value="<?php _e('Enviar', 'qode'); ?>" />
 										</span>
 									</form>	
 								</div>
